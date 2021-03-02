@@ -1,0 +1,15 @@
+Day one was focus on using the print() and input() function  
+manipulating strigns and viarables 
+print() display  any thing put inside the brackets oon the screen.
+input() promte the user for input 
+
+project of the day 
+
+create a band name generator 
+
+code 
+print("Welcome to brand name generator \n")
+city = input("In what city where you born \n")
+pet_name = input("whats the name of your pet \n ")
+brand_name = city + pet_name
+print("your band name is: " + brand_name)
