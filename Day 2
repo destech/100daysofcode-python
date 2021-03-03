@@ -1,0 +1,18 @@
+Day 2 
+today  i will be learing about data types and manipulation using data types 
+
+todays project was about writing a tip calculator ]
+ code 
+ print("Welcome to the tip calculator.")
+bill = float(input("what was the total bill: "))
+# print(bill)
+percentage = int(input("what percentage tip would you like to give? 10, 12 or 15: "))
+people = int(input("How many Peopel to split the bill?: "))
+new_percent = percentage / 100 * bill
+# print(new_percent)
+new_bill = bill + new_percent
+# print(new_bill)
+bill_per_person = round(new_bill/people, 2)
+final_amount = "{:.2f}".format(bill_per_person)
+# print(bill_per_person)
+print(f"Each person should pay  {final_amount}")
